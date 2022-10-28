@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  color: #fff;
+  background: linear-gradient(180deg, #db4444 0%, #3f24dd 98%);
+}
+
+.Alternativa{
+
+	font-size: 1.1rem;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  border-spacing: 2px;
+  box-shadow: 7px 7px 5px rgba(12, 12, 12, 0.77);
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+}
+
+.Questao_Enunciado{
+  margin: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  background:#fff;
+  color:#333;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.Questao_Itens{
+  padding: 1rem;
+  background: #fff;   
+  border-radius: 15px; 
+  border: 2px solid #000;
+}
+
+img{
+  border-radius: 15px;
+  width: 320px;
+  height: 240px;
+  border: 3px solid #000;
+  margin-bottom: 20px;
+}
+
+.Alternativas:hover{
+  color: #000;
+  font-size: 120%;
+  font-weight: bold; 
+  cursor: pointer;
+}
+
+.Questao_Topo_Esquerda, .Questao_Topo_Direita{
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.inicio{
+  padding: 0.6rem;
+  background: #fff;   
+  border-radius: 15px; 
+  border: 2px solid #000;
+  color: #333;
+  margin: 10px;
+}
+
+.h1{
+  text-decoration: underline #333 3px;
+  font-weight: bold;
+}
+
+#Timer{
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+#Comecar, #mudarPergunta, #resposta{
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer; 
+}
+
+#Comecar:hover{
+  color: #333;
+  font-size: 120%;
+  font-weight: bold; 
+  background-color:#e6f4fe;
+}
+
+#mudarPergunta:hover{
+  color: #333;
+  font-size: 120%;
+  font-weight: bold; 
+  background-color:#e6f4fe;
+}
+
+#resposta:hover{
+  color: #333;
+  font-size: 120%;
+  font-weight: bold; 
+  background-color:#e6f4fe;
+}
+
+.Questao_Topo{
+ display: flex;
+ justify-content: space-between;
+ padding-left: 10px;
+ padding-right: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <div class="inicio">
+  <h1 class="h1">Quiz Sobre Pontos Turísticos</h1>
+  <p class="p1">Voce sabe onde se localizam alguns pontos turísticos mundiais? Então use os seus conhecimentos neste quiz.</p></div>
+  <p align="center"><button  id="Comecar" onclick="Comecar()">Iniciar Quiz</button>
+  <button  id="mudarPergunta" onclick="mudarPergunta()" hidden="hidden">Próxima Pergunta</button>
+  <button id="resposta" onclick="Respostas()" hidden="hidden"> Respostas Ate agora </button>
+    <button onclick="ItemEscolhidoTeste()" hidden="hidden"> corrige</button>
+  </p>
+ 
+  <br><br>
+  <!--<form id="formid" action="?a=do" method="POST" onChange="doSomething();">-->
+    <section id="quiz">
+      <!--<form id="formid" onChange="doSomething();"-->
+    <article id="Perguntas">
+      <!-- Organizacao geral da questao inicio-->
+      <div class="Questao_BoxGeral">
+        <div class="Questao_Topo">
+          <span class="Questao_Topo_Esquerda" id="Questao_Topo_Esquerda">Bem Vindo! </span>
+          <span class="Timer" id="Timer">Tempo</span>
+          <span class="Questao_Topo_Direita">Pontos: <span id="Pontos"> 0</span></span>
+                
+          </div>
+        <div class="Questao_Enunciado" id="Questao_Enunciado">Regras</div>
+        <div id="fundoGradiente">
+        <div class="circulo" id="Imagem" style="text-align:center;" ><img src="img/q111.webp" id="ImagemFundo" align="center" width="360" height="360"> </div>
+          </div>
+        <div class="Questao_Itens">
+          <p class="Alternativa"> <span class="Alternativas" id="Q_A">Escolha 1 alternativa</span></p>
+          <p class="Alternativa"> <span class="Alternativas" id="Q_B">Atenção com o tempo </span></p>
+          <p class="Alternativa"> <span  class="Alternativas"id="Q_C">Banco de questões de ordem aleatoria </span></p>
+          <p class="Alternativa"> <span class="Alternativas" id="Q_D">Itens ordenam aleatoriamente </span></p>
+          <p class="Alternativa"> <span class="Alternativas" id="Q_E">Clique me PROXIMA PERGUNTA para validar sua pontuação </span></p>
+        </div>
+      </div>
+      <!-- Organizacao geral da questao final-->
+    </section>
+
+
+</body>
+
+</html>
